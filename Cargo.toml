@@ -1,0 +1,18 @@
+[package]
+name = "prometheus_api"
+version = "0.1.0"
+authors = ["hpx <hephex@fucina.io>"]
+license = "MIT"
+description = "client for Prometheus querying API"
+homepage = "https://github.com/hephex/prometheus_api"
+repository = "https://github.com/hephex/prometheus_api"
+documentation = "https://docs.rs/prometheus_api"
+keywords = ["prometheus", "api", "http", "client"]
+categories = ["web-programming::http-client"]
+readme = "README.md"
+
+[dependencies]
+api = "0.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"

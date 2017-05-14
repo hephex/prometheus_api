@@ -1,2 +1,3 @@
-# prometheus_api
-Client for Prometheus HTTP API
+# Prometheus API Client
+
+Client library for Prometheus querying HTTP API written in Rust.
